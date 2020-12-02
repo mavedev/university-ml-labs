@@ -37,16 +37,13 @@ class Constants:
     ]
 
     COLORS = [
-        'blue',
-        'orange',
-        'green',
         'red',
-        'purple',
-        'brown',
-        'pink',
-        'gray',
-        'olive',
+        'orange',
+        'yellow',
+        'green',
         'cyan',
+        'blue',
+        'pink'
     ]
 
     DATE_TIME_KEY = 'Date Time'
