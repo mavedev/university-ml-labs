@@ -15,10 +15,16 @@ titles = [
     'Wind direction in degrees',
 ]
 
+date_time_key = 'Date Time'
+
+investigated_key = 'T (degC)'
+investigated_key_K = 'Tpot(K)'
+investigated_key_dewpoint = 'Tdew (degC)'
+
 feature_keys = [
-    'T (degC)',
-    'Tpot (K)',
-    'Tdew (degC)',
+    investigated_key,
+    investigated_key_K,
+    investigated_key_dewpoint,
     'p (mbar)',
     'rh (%)',
     'VPmax (mbar)',
@@ -41,5 +47,3 @@ colors = [
     'blue',
     'pink'
 ]
-
-date_time_key = 'Date Time'
