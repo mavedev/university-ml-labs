@@ -1,53 +1,45 @@
-from typing import Union
+titles = [
+    'Temperature',
+    'Temperature in Kelvin',
+    'Temperature (dew point)',
+    'Pressure',
+    'Relative Humidity',
+    'Saturation vapor pressure',
+    'Vapor pressure',
+    'Vapor pressure deficit',
+    'Specific humidity',
+    'Water vapor concentration',
+    'Airtight',
+    'Wind speed',
+    'Maximum wind speed',
+    'Wind direction in degrees',
+]
 
+feature_keys = [
+    'T (degC)',
+    'Tpot (K)',
+    'Tdew (degC)',
+    'p (mbar)',
+    'rh (%)',
+    'VPmax (mbar)',
+    'VPact (mbar)',
+    'VPdef (mbar)',
+    'sh (g/kg)',
+    'H2OC (mmol/mol)',
+    'rho (g/m**3)',
+    'wv (m/s)',
+    'max. wv (m/s)',
+    'wd (deg)',
+]
 
-class Constants:
-    TITLES = [
-        'Pressure',
-        'Temperature',
-        'Temperature in Kelvin',
-        'Temperature (dew point)',
-        'Relative Humidity',
-        'Saturation vapor pressure',
-        'Vapor pressure',
-        'Vapor pressure deficit',
-        'Specific humidity',
-        'Water vapor concentration',
-        'Airtight',
-        'Wind speed',
-        'Maximum wind speed',
-        'Wind direction in degrees',
-    ]
+colors = [
+    'red',
+    'orange',
+    'yellow',
+    'green',
+    'cyan',
+    'blue',
+    'pink'
+]
 
-    FEATURE_KEYS = [
-        'p (mbar)',
-        'T (degC)',
-        'Tpot (K)',
-        'Tdew (degC)',
-        'rh (%)',
-        'VPmax (mbar)',
-        'VPact (mbar)',
-        'VPdef (mbar)',
-        'sh (g/kg)',
-        'H2OC (mmol/mol)',
-        'rho (g/m**3)',
-        'wv (m/s)',
-        'max. wv (m/s)',
-        'wd (deg)',
-    ]
-
-    COLORS = [
-        'red',
-        'orange',
-        'yellow',
-        'green',
-        'cyan',
-        'blue',
-        'pink'
-    ]
-
-    DATE_TIME_KEY = 'Date Time'
-
-
-class Types:
-    Path = Union[str]
+date_time_key = 'Date Time'
